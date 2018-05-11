@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+body {
+    font-family: 'Pontano Sans', sans-serif;
+    max-width: 500px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 50px 3px 50px 3px;
+    color: #fff;
+    background-image: url("../public/image/teddy-kelley-106391-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+
+.addtodo {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 3px #333;
+    input {
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        font-size: 17px;
+        text-align: center;
+    }
+    button {
+        border: none;
+        background-color: #5b91ec;
+        width: 100px;
+        height: 30px;
+        color: #fff;
+        font-size: 17px;
+        text-shadow: 2px 2px 3px #333;
+    }
+}
+
+.filtertodo {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        border: none;
+        border-radius: 5px;
+        background-color: #b4cfff57;
+        display: flex;
+        width: 100px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin: 10px;
+        color: #fff;
+    }
+    span {
+        border: none;
+        border-radius: 5px;
+        background-color: #5b91ec;
+        display: flex;
+        width: 100px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        text-shadow: 2px 2px 3px #333;
+    }
+}
+
+.display {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 3px #333;
+    ul {
+        text-decoration: none;
+        list-style: none;
+        padding: 0;
+        li {
+            border: 1px solid #fff;
+            background-color: #ffffff38;
+            width: 100%;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 3px;
+            font-size: 20px;
+        }
+    }
+}
+
+.fancy {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.unsplash {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
